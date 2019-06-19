@@ -1,4 +1,4 @@
-function mergeArray(arr1, arr2) {
+function mergeSortedArrays(arr1, arr2) {
     var new_array = [];
     var i = 0,
         j = 0,
