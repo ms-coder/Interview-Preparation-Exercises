@@ -16,6 +16,6 @@ function mergeArray(arr1, arr2) {
     return new_array;
 }
 
-let a = mergeArray([3,4,1,7], [2,6,9,0]);
+let a = mergeArray([1,3,4,7], [2,6,9,0]);
 
 console.log(a.join());
