@@ -1,3 +1,12 @@
+// this is a first sample exercise
+
+// TASK DESCRIPTION:
+//
+//
+//
+
+// SOLUTION
+
 function mergeSortedArrays(arr1, arr2) {
     var new_array = [];
     var i = 0,
@@ -16,6 +25,7 @@ function mergeSortedArrays(arr1, arr2) {
     return new_array;
 }
 
-let a = mergeSortedArrays([1,3,4,7], [2,6,9]);
+// TESTS
 
+let a = mergeSortedArrays([1,3,4,7], [2,6,9]);
 console.log(a.join());
