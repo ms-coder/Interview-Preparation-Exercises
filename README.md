@@ -80,3 +80,7 @@
 * Combinations of words formed by replacing given numbers with corresponding English alphabets
 * Decode the given sequence to construct minimum number without repeated digits
 * All combinations of elements satisfying given constraints
+
+### Other sources...
+
+* Multiplication table (two dimensional array from 1 to 100 with multiplication results)
