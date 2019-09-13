@@ -6,8 +6,9 @@
 
 * 0-Merge sorted arrays
 * 1-Find pair with given sum in the array
-* 2-Find sub-array with 0 sum
-* Sort binary array in linear time
+* 2-Reverse a string
+* 3-Find sub-array with 0 sum
+* 4-Sort binary array in linear time
 * Find a duplicate element in a limited range array
 * Find largest sub-array formed by consecutive integers
 * Find maximum length sub-array having given sum
