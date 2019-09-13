@@ -3,9 +3,10 @@
 ## Arrays
 
 ### https://medium.com/@codingfreak/huge-collection-of-array-interview-questions-e87ac7c34e62
- 
-* Find pair with given sum in the array
-* Find sub-array with 0 sum
+
+* 0-Merge sorted arrays
+* 1-Find pair with given sum in the array
+* 2-Find sub-array with 0 sum
 * Sort binary array in linear time
 * Find a duplicate element in a limited range array
 * Find largest sub-array formed by consecutive integers
