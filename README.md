@@ -9,8 +9,8 @@
 * 2-Reverse a string
 * 3-Find sub-array with 0 sum
 * 4-Sort binary array in linear time
-* Find a duplicate element in a limited range array
-* Find largest sub-array formed by consecutive integers
+* 5-Find a duplicate element in a limited range array
+* 6-Find largest sub-array formed by consecutive integers
 * Find maximum length sub-array having given sum
 * Find maximum length sub-array having equal number of 0’s and 1’s
 * Sort an array containing 0’s, 1’s and 2’s(Dutch national flag problem)
