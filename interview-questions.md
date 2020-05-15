@@ -28,3 +28,22 @@
 * MonoDevelop (Open Source | multiplatform, )
 * Rider (Jet Brains)
 * some small IDEs like sharpDevelop
+
+## Explain the types of comments in C#
+
+* // - line comments (single line)
+* \/\*\*\/ - block comments (multi line)
+* Documentation XML comments (above methods) - providing information about methods in Libraries
+
+# Explain sealed class in C#?
+
+* prevent inheritance for classes
+* prevent overriding for methods
+
+#  List out the differences between Array and ArrayList in C#?
+
+1. Array is a base data type, supported by CLR (common language runtime). ArrayList is a more complex data type, which implementation is based on Array. 
+
+2. ArrayList can be grow dynamical by adding new elements, Array - not.
+
+3. ArrayList can store elements of different datatypes (boxing/unboxing needed), not recommended, generic list is better
