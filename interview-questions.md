@@ -35,20 +35,20 @@
 * \/\*\*\/ - block comments (multi line)
 * Documentation XML comments (above methods) - providing information about methods in Libraries
 
-# Explain sealed class in C#?
+## Explain sealed class in C#?
 
 * prevent inheritance for classes
 * prevent overriding for methods
 
-#  List out the differences between Array and ArrayList in C#?
+##  List out the differences between Array and ArrayList in C#?
 
 * Array is a base data type, supported by CLR (common language runtime). ArrayList is a more complex data type, which implementation is based on Array. 
 * ArrayList can be grow dynamical by adding new elements, Array - not.
 * ArrayList can store elements of different datatypes (boxing/unboxing needed), not recommended, generic list is better
 
-# Why to use “using” in C#?
+## Why to use “using” in C#?
 
 It helps to work with instances implementing IDisposable interface. By leaving the scope of "using", the corresponding instance is disposed. Also in a case of any exception inside of the using block the "dispose" command will be sent.
 
-# Explain namespaces in C#
+## Explain namespaces in C#
 
