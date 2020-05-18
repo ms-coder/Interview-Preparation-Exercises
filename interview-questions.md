@@ -141,16 +141,38 @@ public - is an access modifier (the member is visible everywhere)
 
 ## What is the difference between “out” and “ref” parameters in C#?
 
+* the variable declared as out parameter will get its value inside of a containing method  (changind reference will lead to changing the value of variable outside of the method's scope)
+
+* the reference parameter's value is not copied for using inside of the method, passed per reference (changind reference will not lead to changing the value of variable outside of the method's scope, but changing the referenced object's properties - will do), so it needs to be initialized before
+
 ## Explain Jagged Arrays in C#?
+
+If the elements of an array is an array then it’s called as jagged array. The elements can be of different sizes and dimensions.
 
 ## Can we use “this” inside a static method in C#?
 
+No, because we have no object (this points to the current object)
+
 ## What are value types in C#?
+
+decimal
+int
+byte
+enum
+double
+long
+float
 
 ## What are reference types in C#?
 
+class
+string
+interface
+object
+
 ## Can we override private virtual method in C#?
 
+No. We can’t override private virtual methods as it is not accessible outside the class.
 
 https://www.guru99.com/c-sharp-interview-questions.html
 
