@@ -82,15 +82,40 @@ Static methods are called direct on class member, not on object instance.
 
 ## How the exception handling is done in C#?
 
+With "try...catch" block
+
+<pre><code>
+try {
+
+} catch (Exception ex)
+{
+
+} filanlly
+{
+
+}
+</code></pre>
+
+If in try block an exception is thrown, the catch block is executed.
+
 ## Can we execute multiple catch blocks in C#?
+
+* We can have multiple catch blocks, but only one of them is executed.
+* Since C# 6 we have also exception filters: catch (Exception e) when (MyFilter(e))
 
 ## Why to use “finally” block in C#?
 
+Finaly block is executed in both cases (exception was thrown / exception wasn't thrown), it is helpfull for eleminating/release connections to databases or I/O ressources.
+
 ## What is the difference between “finalize” and “finally” methods in C#?
+
+Finalize allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.
 
 ## What is the difference between “throw ex” and “throw” methods in C#?
 
 ## Can we have only “try” block without “catch” block in C#?
+
+Yes, but only with finally block
 
 ## List out two different types of errors in C#?
 
