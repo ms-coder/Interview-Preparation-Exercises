@@ -113,17 +113,31 @@ Finalize allows an object to try to free resources and perform other cleanup ope
 
 ## What is the difference between “throw ex” and “throw” methods in C#?
 
+"throw ex" stack trace is overriden to the point, wehre ex was thrown
+"throw" will keep stack trace
+
 ## Can we have only “try” block without “catch” block in C#?
 
 Yes, but only with finally block
 
 ## List out two different types of errors in C#?
 
+Compile Time Error
+Run Time Error
+
 ## Do we get error while executing “finally” block in C#?
+
+Yes
 
 ## Mention the assembly name where System namespace lies in C#?
 
+mscorlib.dll
+
 ## What are the differences between static, public and void in C#?
+
+void - the function has no return value (it is used where the type for the return value should stay)
+static - is additional keyword, can be used for classes (class cannot be instantiated) and methods (methods are executed on class level, not on object level).
+public - is an access modifier (the member is visible everywhere)
 
 ## What is the difference between “out” and “ref” parameters in C#?
 
