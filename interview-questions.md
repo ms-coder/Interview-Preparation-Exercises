@@ -172,12 +172,56 @@ object
 
 ## Can we override private virtual method in C#?
 
-No. We can’t override private virtual methods as it is not accessible outside the class.
+No. We can’t override private virtual methods as they are not accessible outside the class.
+
+## Explain access modifier – “protected internal” in C#?
+
+internal - means that this member can be used only inside same assembly
+protected - the member can be used only in this and child class
+
+## What do you mean by inner exception in C#?
+
+
+
+## Explain String Builder class in C#?
+
+StringBuilder was developed for the fast concatenation of strings. String is immutable, and a new object is always created when changeing/concatenating strings. 
+
+## What is the difference between “StringBuilder” and “String” in C#?
+
+StringBuilder is mutable
+String is immutable
+
+## What is the difference between methods – “System.Array.Clone()” and “System.Array.CopyTo()” in C#?
+
+## How we can sort the array elements in descending order in C#?
+
+
+
+38) Explain circular reference in C#?
+
+
+39) List out some of the exceptions in C#?
+
+
+40) Explain Generics in C#?
+
+
+41) Explain object pool in C#?
+
+
+42) What you mean by delegate in C#?
+
+43) What are the types of delegates in C#?
+
+44) What are the three types of Generic delegates in C#?
+
+45) What are the differences between events and delegates in C#?
+
+
+
 
 https://www.guru99.com/c-sharp-interview-questions.html
-
-
-3. Can multiple catch blocks be executed?
 
 
 4. What is the difference between public, static, and void?
